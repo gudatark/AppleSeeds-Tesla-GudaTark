@@ -1,0 +1,263 @@
+@font-face {
+    font-display: swap;
+    font-family: Gotham SSm;
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Medium_Web.woff2)
+      format("woff2");
+      font-family :gotham SSm;
+      font-size : 13px;
+  }
+  
+  .logo {
+    padding-left: 32px;
+}
+
+.logo .logo__button img {
+    width: 150px;
+    padding-left: 10px;
+    margin-right: 40px;
+    border-image: 32em;
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style: none; 
+}
+a{
+    text-decoration: none;
+}
+.main_navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    padding: 0px 10px;
+    
+}
+
+.main_navbar .main_list, .main_navbar .side_list{
+    display: flex;
+    align-items: center;
+}
+.main_list li, .side_list li{
+    padding: 10px 10px;
+    align-items: center;
+}
+.main_list li:hover, .side_list li:hover{
+    background-color: gray;
+    border-radius: 35px;
+    align-items: center;
+}
+.main_navbar h1{
+    font-family: Gotham SSm;
+    color: white;
+    margin-center: 20px;
+    align-items: center;
+}
+.main_navbar a{
+    font-family: Gotham SSm;
+    padding:10px 0px ; 
+    color: white;
+    margin: 0px 5px; 
+}
+.main_list{
+    font-family: Gotham SSm;
+    margin-left:200px;
+}
+
+.first_page{
+    font-family: Gotham SSm;
+    background: url('/first.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* hero footer */
+.hero-footer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 1500px;
+    height: 10vh;
+    
+}
+
+.hero-footer__nav {
+   
+    display: flex;
+    justify-content: left;
+    margin: 700px;}
+
+.hero-footer-navitem{
+    margin: 20px;
+    text-align: center;
+    /* font-weight: lighter; */
+    font-weight: 300px;
+    font-size: 12px;
+    line-height: 18px;
+  
+    padding-right: 10%;
+}
+
+.hero-footer-navitem h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 10px;
+    padding-left: 10%;
+}
+
+.hero-footer-navitem--order {
+    display: flex;
+    align-items: left;
+}
+
+.hero-footer-navitem--order .order-btn {
+    padding: 7px 50px;
+    font-size: 10px;
+    text-decoration: none;
+    color: var(--prim-color-white);
+    border: 3px solid var(--prim-color-white);
+    border-radius: 30px;
+    align-self: flex-start;
+}
+
+.bottom-arrow-btn {
+    margin: 20px 0;
+}
+
+.bottom-btn__link {
+    text-decoration: none;
+    color: var(--prim-color-white);
+}
+
+/*------------------*/
+
+.content {
+    font-family: Gotham SSm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+    height: 80%;
+}
+.content h1{
+    font-family: Gotham SSm;
+    font-size: 50px;
+    margin-bottom: 23%;
+    color: white;   
+}
+.details{
+    display: flex;
+    justify-content:center;
+    /* border: 1px solid; */
+    width: 50%;
+    margin: auto; 
+}
+.details ul{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.details ul li{
+    padding: 20px;
+    color: white;
+}
+.details ul li button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 3px solid;
+    color: white;
+}
+.details ul li button:hover{
+    background-color: white;
+    color: black;
+    border:3px solid white;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+
+}
+
+.container img{
+    width: 81.5%;
+    height: 81.5%;
+}
+.container p{
+    margin-top: 5%;
+    margin-right: 1%;
+}
+.container .mini_header{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(32, 30, 30);
+}
+.container p a{
+    text-decoration: underline;
+    color: gray;
+}
+.container .bold{
+    color: rgb(32, 30, 30);
+}
+
+.container2{
+    position: relative;
+    }
+.order{
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 3px solid black;
+    color: gray;
+}    
+#order1{
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}    
+
+.order:hover{
+    background-color: gray;
+    color: white;
+    border:3px solid gray;
+    cursor: pointer;
+}
+
+
+.container3{
+    height: 100vh;
+}
+.container3 .img{
+    background: url('/third.jpg') no-repeat center center/cover;
+    height: 77vh;
+}
+.explain{
+    font-size: 18px;
+    color: gray;
+ }
+ .dwon{
+   height: 25%;
+   position: relative;
+}
+.dwon p{
+    width: 36%;
+    position: absolute;
+    right: 20%;
+    top:30px
+} 
+#order2{
+    position: absolute;
+    top:40%;  
+    left:29%  
+}   
