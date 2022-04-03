@@ -73,7 +73,7 @@ a{
 
 .first_page{
     font-family: Gotham SSm;
-    background: url('/first.jpg') no-repeat center center/cover;
+    background: url('../assets/first.jpg') no-repeat center center/cover;
     height: 100vh;
     position: relative;
 }
@@ -239,7 +239,7 @@ a{
     height: 100vh;
 }
 .container3 .img{
-    background: url('/third.jpg') no-repeat center center/cover;
+    background: url('../assets/third.jpg') no-repeat center center/cover;
     height: 77vh;
 }
 .explain{
